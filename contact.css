@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(235, 246, 236, 0.726);
+
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.a1{
+    height: 400px;
+    width: 30%;
+    background-color:rgba(0, 128, 0, 0.58);
+    color: azure;
+    padding-left:9px ;
+    border-radius: 3px;
+
+}
+h2{
+    text-align: center;
+}
+
+.a2{
+    height: 400px;
+    width: 50%;
+    background-color: white;
+
+}
+form{
+    padding-left: 60px;
+}
+input{
+    height: 40px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom:1px solid black;
+}
+#xyz{
+    height: 60px;
+    width: 60%;
+    border: 1px solid black;
+}
+
+

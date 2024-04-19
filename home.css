@@ -1,0 +1,90 @@
+#a1{
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.containar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(21, 46, 46);
+}
+
+/* .fi1 img{               ** to remove background of logo
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+        mix-blend-mode: darken;
+
+} */
+.fi{
+    
+    float: right; 
+    margin-top: -30px;
+}
+.z{
+    
+    padding-left: 60px;  
+}
+a{
+    color: blue;
+    border-bottom: 2px;
+    text-decoration: none;
+}
+.z:hover{
+    color: rgb(240, 12, 217);
+}
+button a{
+    color: whitesmoke;
+}
+#z1{
+    padding-right: 40px;
+}
+
+.containar1 {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid lightgray ;
+   justify-content: space-between;
+   background-color: rgba(230, 236, 242, 0.413);
+   align-items: center;
+}
+
+#x1{
+     color: rgb(235, 146, 13);
+     padding-left: 110px;
+     margin-top: -100px;
+     flex-wrap: wrap;
+
+    
+}
+button{
+    height: 40px;
+    width: 110px;
+    color: aliceblue;
+    background-color: rgba(129, 15, 120, 0.763);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+
+}
+
+button:hover{
+   
+    width: 120px;
+    color: aliceblue;
+    background-color: rgba(99, 177, 225, 0.763);
+     border-radius: 5px;
+}
+
+#a2{
+    width: 110%;
+    height: 80vh;
+    float: right;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    flex-wrap: wrap; 
+
+}
